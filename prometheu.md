@@ -37,7 +37,7 @@ Créer un fichier systemd
 sudo vi /etc/systemd/system/XXX_exporter.service
 ```
 
-Contenu général, mais a personnalisé pour chaque exporter
+**Contenu général, à personnaliser pour chaque exporter**
 ```
 [Unit]
 Description=Prometheus XXX Exporter
@@ -82,7 +82,7 @@ sudo systemctl restart node_exporter
 sudo journalctl -u node_exporter
 ```
 
-**Tester install fonctionne**
+**Test installation**
 ```
 curl http://localhost:9100/metrics
 ```
