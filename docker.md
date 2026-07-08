@@ -45,7 +45,16 @@ Il est nécessaire de quitter la session et de se reconnecter pour voir le group
 
 ### installation du projet
 ```
-docker composer up -d
+docker compose up -d
 ```
 
+### Lister les containers
+```
+docker compose ps
+```
+
+### Vérifier la config
+```
+docker compose config
+```
 
